@@ -14,7 +14,7 @@ namespace lab3
         [Serializable]
         class SerializClass
         {
-            static public void Serializing(object obj)//Код для сериализации 
+            static public void Serializing(object obj)//Код для сериализации бллалалалаа
             {
                 BinaryFormatter former = new BinaryFormatter();
                 using (FileStream fs = new FileStream(obj + ".dat", FileMode.OpenOrCreate))
